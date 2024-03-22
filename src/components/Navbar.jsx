@@ -1,4 +1,4 @@
-import { appleImg, bagImg, searchImg } from "../utils";
+import { appleImg, bagImg, searchImg } from "../utils/index.js";
 import { navLists } from "../constants";
 
 const Navbar = () => {
