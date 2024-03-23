@@ -4,6 +4,8 @@ import ModelView from "./ModelView";
 import { useState, useRef } from "react";
 import { yellowImg } from "../utils";
 import * as THREE from "three";
+import { Canvas } from "@react-three/fiber";
+import { View } from "@react-three/drei";
 
 const Model = () => {
   const [size, setSize] = useState("small");
@@ -46,6 +48,18 @@ const Model = () => {
               item={model}
               size={size}
             />
+            <ModelView
+              index={2}
+              groupRef={large}
+              gsapType="view1"
+              controlRef={cameraControlLarge}
+              setRotationState={setLargeRotation}
+              item={model}
+              size={size}
+            />
+            <Canvas>
+              <View.Port />
+            </Canvas>
           </div>
         </div>
       </div>
