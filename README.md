@@ -59,10 +59,6 @@ npm run dev
 
 Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ---
 
 *Note: This project is a personal project and is not affiliated with or endorsed by Apple Inc. The design and content are for educational and demonstration purposes only.*
