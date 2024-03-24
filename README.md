@@ -27,13 +27,13 @@ This project is a clone of the Apple.com website showcasing the new iPhone 15. I
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/apple-iphone-15-clone.git
+git clone https://github.com/btarrant/apple-site.git
 ```
 
 2. Navigate to the project directory:
 
 ```
-cd apple-iphone-15-clone
+cd apple-site
 ```
 
 3. Install dependencies:
